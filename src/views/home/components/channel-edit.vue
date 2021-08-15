@@ -16,10 +16,6 @@
       >{{ isEdit ? '完成' : '编辑' }}</van-button>
     </van-cell>
     <van-grid :gutter="10" clickable>
-      <!--
-        所有的 **组件**，如果没有内容，都可以写单标签结束或者双标签结束
-        原生的 HTML 标签，你怎么学的你就怎么写
-      -->
       <van-grid-item
         class="channel-item"
         v-for="(channel, index) in userChannels"

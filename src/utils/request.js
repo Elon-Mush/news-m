@@ -54,10 +54,7 @@ request.interceptors.response.use(
       const user = store.state.user
 
       if (!user || !user.refresh_token) {
-        // router.push('/login')
         redirectLogin()
-
-        // 代码不要往后执行了
         return
       }
 

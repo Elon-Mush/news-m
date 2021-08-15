@@ -112,10 +112,6 @@ export default {
   },
   methods: {
     onLogout () {
-      // Dialog 组件既可以在模板中使用
-      // 也可以通过 JavaScript 来调用
-      // 模板中使用 van-dialog
-      // JavaScript 调用：this.$dialog
       this.$dialog.confirm({
         title: '退户确认',
         message: '退出当前头条账号，将不能同步收藏，发布评论和云端分享等'

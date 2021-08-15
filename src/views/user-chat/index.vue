@@ -3,7 +3,7 @@
     <!-- 导航栏 -->
     <van-nav-bar
       class="page-navbar"
-      title="小智同学"
+      title="小新同学"
       left-arrow
       @click-left="$router.back()"
       fixed
