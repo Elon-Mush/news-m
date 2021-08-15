@@ -1,4 +1,4 @@
-# pulish-vue
+# News-m
 
 ## Project setup
 ```
