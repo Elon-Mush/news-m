@@ -1,5 +1,3 @@
-# pulish-vue
-
 ## Project setup
 ```
 npm install
