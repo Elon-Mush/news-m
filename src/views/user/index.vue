@@ -79,6 +79,4 @@ export default {
 </script>
 
 <style scoped lang="less">
-.user-container {
-}
 </style>

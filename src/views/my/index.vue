@@ -114,7 +114,7 @@ export default {
     onLogout () {
       this.$dialog.confirm({
         title: '退户确认',
-        message: '退出当前头条账号，将不能同步收藏，发布评论和云端分享等'
+        message: '退出当前账号，将不能同步收藏，发布评论和云端分享等'
       }).then(() => {
         // 确认执行这里
 

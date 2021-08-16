@@ -162,9 +162,9 @@ export default {
           font-size: 18px;
           margin-right: 5px;
         }
-        .comment-icon {
-          // top: 0px;
-        }
+        // .comment-icon {
+        //   // top: 0px;
+        // }
         font-size: 14px;
       }
     }
